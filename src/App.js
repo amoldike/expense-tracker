@@ -18,7 +18,7 @@ const dummyData = [
   },
   {
     id: "exp3",
-    date: new Date(2021, 2, 18),
+    date: new Date(2022, 2, 18),
     item: "New Desk (Wooden)",
     price: 450.38,
   },
@@ -26,7 +26,13 @@ const dummyData = [
     id: "exp4",
     date: new Date(2022, 5, 18),
     item: "New Laptop",
-    price: 250.38,
+    price: 50.38,
+  },
+  {
+    id: "exp4",
+    date: new Date(2020, 9, 18),
+    item: "New Car",
+    price: 950.38,
   },
 ];
 

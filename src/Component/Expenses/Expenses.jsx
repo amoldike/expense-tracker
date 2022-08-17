@@ -1,11 +1,11 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import ExpensesFilter from "./ExpensesFilter";
 import "./Expenses.css";
 import ExpensesList from "./ExpensesList";
 import ExpenseChart from "./ExpenseChart";
 
 const Expenses = ({ expenseData }) => {
-  const [filteredYear, setFilteredYear] = useState("2020");
+  const [filteredYear, setFilteredYear] = useState("2022");
 
   const updateFilteredYear = (year) => {
     console.log("inside expenses");
